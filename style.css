@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #89daea;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h2 {
+    color: #41686c;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.skills, .projects, .contact {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .projects li {
+    background: #e7e7f2;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+.skills li:hover, .projects li:hover {
+    background: #d0d8f4;
+    transform: translateY(-3px);
+}
+
+.contact li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.contact li a {
+    color: #41686c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #5b828a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* General styling for both buttons */
+.resume-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  /* Styling for View Resume button */
+  .view-button {
+    background-color: #007bff;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for Download Resume button */
+  .download-button {
+    background-color: #28a745;
+  }
+  
+  .download-button:hover {
+    background-color: #218838;
+  }
+
+/* Contact Form Styling */
+#contact-form {
+    margin: 40px 0;
+  }
+  
+  #contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
