@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #76d8e5;
     color: #333;
 }
 
@@ -83,7 +83,7 @@ h2 {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #5b828a;
+    background-color: #01090a;
     color: white;
     position: fixed;
     width: 100%;
@@ -115,7 +115,7 @@ footer {
   }
   
   .view-button:hover {
-    background-color: #0056b3;
+    background-color: #3b4f64;
   }
   
   /* Styling for Download Resume button */
@@ -124,7 +124,7 @@ footer {
   }
   
   .download-button:hover {
-    background-color: #218838;
+    background-color: #69c77e;
   }
 
 /* Contact Form Styling */
@@ -181,3 +181,42 @@ footer {
 }
 
 
+.project-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.project-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the back button */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .back-button {
+      font-size: 1em; /* Adjust the font size for smaller screens */
+      padding: 8px 16px;
+  }
+}
